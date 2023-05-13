@@ -13,7 +13,7 @@ export default function NavBar() {
 
           <div class="flex items-center">
             <span class="font-inter text-lg lg:(text-xl) font-bold text-white">
-              Phish Grabber
+              Munio
             </span>
           </div>
         </div>

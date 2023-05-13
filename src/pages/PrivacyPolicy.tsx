@@ -10,16 +10,16 @@ export default function PrivacyPolicy(props: RouterProps) {
         >
           <img class="h-10" src="/static/fish.png" alt="logo" />
           <div class="font-inter text-white font-bold text-xl">
-            Phish Grabber
+            Munio
           </div>
         </div>
       </nav>
 
       <div class="max-w-screen-6xl mx-auto px-4 py-8 text-xl">
         <div class="font-inter text-white font-extrabold text-center lg:(text-2xl)">
-           <h1> Privacy Policy for Phish Grabber bot</h1>
+           <h1> Privacy Policy for Munio bot</h1>
         </div>
-        
+
         <br/>
         <div class="font-inter text-white font-extrabold text-left lg:(text-2xl)">
           General information of privacy policy
@@ -27,7 +27,7 @@ export default function PrivacyPolicy(props: RouterProps) {
         <div class="pl-3 pr-2 pt-4 lg:(pt-2)">
           <ul class="list-disc font-open-sans text-light space-y-2 text-base lg:(text-lg)">
             {[
-              "By reading this privacy policy and adding Phish Grabber bot to their discord server, the server owners or administrators acknowledge that the bot stores partial data for logging purposes and for some parts of bots features to function properly. We are very much aware about how important privacy is for our users. We take a lot of steps to make sure your data remains confidential and protected.",
+              "By reading this privacy policy and adding Munio bot to their discord server, the server owners or administrators acknowledge that the bot stores partial data for logging purposes and for some parts of bots features to function properly. We are very much aware about how important privacy is for our users. We take a lot of steps to make sure your data remains confidential and protected.",
             ].map((rule: string, index: number) => (
               <li key={index}>{rule}</li>
             ))}
@@ -48,12 +48,12 @@ export default function PrivacyPolicy(props: RouterProps) {
             ))}
           </ul>
         </div>
-        
+
         <br/>
                 <div class="font-inter text-white font-extrabold text-left lg:(text-2xl)">
           How we treat your data
         </div>
-        
+
                 <div class="pl-3 pr-2 pt-4 lg:(pt-2)">
           <ul class="list-disc font-open-sans text-light space-y-2 text-base lg:(text-lg)">
             {[
@@ -67,12 +67,12 @@ export default function PrivacyPolicy(props: RouterProps) {
             ))}
           </ul>
         </div>
-        
+
                         <br/>
                 <div class="font-inter text-white font-extrabold text-left lg:(text-2xl)">
           Who has access
         </div>
-        
+
                 <div class="pl-3 pr-2 pt-4 lg:(pt-2)">
           <ul class="list-disc font-open-sans text-light space-y-2 text-base lg:(text-lg)">
             {[
@@ -83,13 +83,13 @@ export default function PrivacyPolicy(props: RouterProps) {
             ))}
           </ul>
         </div>
-        
-        
+
+
                 <br/>
                 <div class="font-inter text-white font-extrabold text-left lg:(text-2xl)">
           Data deletion rights
         </div>
-        
+
                 <div class="pl-3 pr-2 pt-4 lg:(pt-2)">
           <ul class="list-disc font-open-sans text-light space-y-2 text-base lg:(text-lg)">
             {[
@@ -100,12 +100,12 @@ export default function PrivacyPolicy(props: RouterProps) {
             ))}
           </ul>
         </div>
-        
+
                         <br/>
                 <div class="font-inter text-white font-extrabold text-left lg:(text-2xl)">
           Policy update
         </div>
-        
+
                 <div class="pl-3 pr-2 pt-4 lg:(pt-2)">
           <ul class="list-disc font-open-sans text-light space-y-2 text-base lg:(text-lg)">
             {[
@@ -117,7 +117,7 @@ export default function PrivacyPolicy(props: RouterProps) {
             ))}
           </ul>
         </div>
-        
+
       </div>
     </div>
   );

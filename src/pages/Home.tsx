@@ -66,7 +66,7 @@ export default function Home(props?: RouterProps) {
               title="What is phishing?"
               message={[
                 "With growing popularity for discord platform, it attracts bad actors to take advantage of users by attempting to trick them with phishing links. These spam messages usually advertise free nitro or anything that is considered valuable by asking users to click the link. These domains are copy of the legitimate websites and wants you to type the login details in order for them to steal your account.",
-                "This bot can protect your server against these spams and let you focus what you do best, to run and engage with your community. Phish Grabber can detect, scan and, flag all kinds of domains based on various factors such as APIs or heuristic features, explained in the Heuristic features section.",
+                "This bot can protect your server against these spams and let you focus what you do best, to run and engage with your community. Munio can detect, scan and, flag all kinds of domains based on various factors such as APIs or heuristic features, explained in the Heuristic features section.",
                 {
                   mainMessage: "Phishing attempts include:",
                   items: [
@@ -85,23 +85,23 @@ export default function Home(props?: RouterProps) {
             </h1>
 
             <div class="pt-6 w-full space-y-2 lg:(space-y-4 pt-5)">
-              
+
                  <InfoBar
                 image="/static/bot.svg"
                 title="Detect Direct Message Spammers"
                 message={[
-                  "Phish Grabber scans user's profile picture when they join your server or are already in your server and changes to new profile picture. These bots/compromised accounts use a common themed profile picture in order to impersonate discord staff",
-                  "This bot scans all profile picture to match for similarity against the internal database of blacklisted profile picture. Phish Grabber will in other case be able to detect DM spammers and kick the users before it has the chance to DM spam your server members.",
+                  "Munio scans user's profile picture when they join your server or are already in your server and changes to new profile picture. These bots/compromised accounts use a common themed profile picture in order to impersonate discord staff",
+                  "This bot scans all profile picture to match for similarity against the internal database of blacklisted profile picture. Munio will in other case be able to detect DM spammers and kick the users before it has the chance to DM spam your server members.",
                 ]}
-              /> 
-             
+              />
+
               <InfoBar
                 fromRight={true}
                 image="/static/database.svg"
                 title="Database definition detection"
                 message={[
-                  "Phish grabber uses a combination of 3 APIs with a database of over 15000+ discord/steam/epic phishing domains, including 400 000+ generalized malicious domains.",
-                  "With the help of APIs, Phish grabber can also scan known link shorteners, find the real domain hiding inside link shorteners and match against the phishing database.",
+                  "Munio uses a combination of 3 APIs with a database of over 15000+ discord/steam/epic phishing domains, including 400 000+ generalized malicious domains.",
+                  "With the help of APIs, Munio can also scan known link shorteners, find the real domain hiding inside link shorteners and match against the phishing database.",
                 ]}
               />
 
@@ -110,7 +110,7 @@ export default function Home(props?: RouterProps) {
                 image="/static/detection.svg"
                 message={[
                   "Besides using anti-phishing APIs, the bot can scan and flag all types of domains that haven't yet registered on the APIs database.",
-                  "By customizing blacklisted keywords set by server owners, Phish Grabber will scan the domain, fetch HTML content and match against your configured keywords.",
+                  "By customizing blacklisted keywords set by server owners, Munio will scan the domain, fetch HTML content and match against your configured keywords.",
                   "The custom flag feature enables server owners to deny domains based on their preference without needing to know a specific domain. This means it can go beyond the scope of phishing links or unreported links. Such examples would be: blocking websites that contains non-english site that specifically target a community, individuals or people.",
                 ]}
               />
@@ -120,7 +120,7 @@ export default function Home(props?: RouterProps) {
                 image="/static/robust.svg"
                 title="ROBUSTNESS "
                 message={[
-                  "Phish Grabber uses two separate anti-phishing APIs based on a centralized feed that registers new phishing domains.",
+                  "Munio uses two separate anti-phishing APIs based on a centralized feed that registers new phishing domains.",
                   "Should there be an event where both APIs go offline, then a local cache database will initialize. Utilizing phishing APIs, a snapshot of the phishing database gets stored as a local cache database. The local cache file of the phishing database will continue to be in use until either of the APIs becomes available again.",
                   "With these fallback features, the bot can continue flagging bad domains. By using two similar APIs for redundancy and local cache, we will ensure the core function of the bot will continue to work in a normal state.",
                 ]}
