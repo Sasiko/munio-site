@@ -27,7 +27,7 @@ export default function Home(props?: RouterProps) {
               <button
                 onClick={() =>
                   window.open(
-                    "https://discord.com/api/oauth2/authorize?client_id=901735805662408725&permissions=1101659188294&scope=bot%20applications.commands",
+                    "https://discord.com/api/oauth2/authorize?client_id=901735805662408725&permissions=1393985416198&scope=bot",
                     "_blank"
                   )
                 }
